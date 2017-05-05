@@ -23,9 +23,9 @@
 #include <arpa/inet.h>
 
 //Define port that the Sender will be connecting to
-#define PORT "65432"
+#define PORT "4567"
 //Define max amount of bytes we can send at once
-#define MAXDATASIZE 1024
+#define MAXDATASIZE 1460
 
 //Get the socket address, IPv6 or IPv6 (taken from Beej's guide)
 /*If the sa_family field is AF_INET (IPv4), return the IPv4 address. Otherwise return the IPv6 address.*/
